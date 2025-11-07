@@ -58,6 +58,8 @@ It supports a wide range of vehicle types — including **rovers, robotic arms, 
 
 ---
 
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/a6b6e7e7-be34-4e63-9429-d2389521f8bb" />
+
 ## 🐾 Robotics Dog — Project Explanation
 
 ### 🎯 Project Goals
