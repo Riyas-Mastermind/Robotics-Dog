@@ -1,20 +1,22 @@
-# 🤖 Robotics-Dog
-
+# 🤖 Robotics-Dog  
 ### Developed using **PilotX Microcontroller**  
-*By Safear Defense Private Limited – Bengaluru*  
+**By Safear Defense Private Limited – Bengaluru**  
+**3-Day Workshop conducted at BMS College of Engineering**
 
 ---
 
 ## 📘 Overview
 
-The **Robotics-Dog** project demonstrates an intelligent quadruped robot designed to mimic animal-like movements using **MicroPython** on the **PilotX microcontroller**.  
-This project is part of the *learning-based robotics and embedded control* initiative and aims to help students and developers understand the fundamentals of **multi-servo motion control**, **pose transitions**, and **autonomous behavior**.
+The **Robotics-Dog** project showcases an intelligent quadruped robot designed to mimic animal-like movements using **MicroPython** on the **PilotX microcontroller**.  
+This project was developed and demonstrated during a **3-day hands-on workshop at BMS College of Engineering**, aimed at teaching students real-world applications of **robotics, embedded systems, and motion control**.
+
+The workshop focused on **learning-based robotics development**, helping students and developers understand the fundamentals of **multi-servo motion control**, **pose transitions**, and **autonomous behavior** through practical experimentation.
 
 ---
 
 ## ⚙️ PilotX Microcontroller — Overview
 
-The **PilotX Microcontroller**, developed by **Safear Defense Private Limited – Bengaluru**, is a high-performance embedded control platform engineered for robotics, UAVs, and autonomous systems.  
+The **PilotX Microcontroller**, developed by **Safear Defense Private Limited – Bengaluru**, is a high-performance embedded control platform engineered for **robotics, UAVs, and autonomous systems**.  
 It supports **MicroPython programming**, **real-time telemetry**, and **sensor-rich applications**, making it ideal for projects like the **Robotics-Dog**.
 
 ### 🔧 Technical Specifications
@@ -29,22 +31,22 @@ It supports **MicroPython programming**, **real-time telemetry**, and **sensor-r
 ### 🧠 Programming & Development
 - **Language:** MicroPython  
 - **Connection:** USB / 2.4GHz Wireless  
-- **Firmware:** Upgradable via bootloader  
+- **Firmware:** Upgradable via Bootloader  
 - **Applications:** Robotics, IoT, Drones, Research  
 
 ---
 
 ## 💻 PlannerX Ground Control Station
 
-**PlannerX**, developed by *Safear Defense Private Limited – Bengaluru*, is a comprehensive **Ground Control Station (GCS)** software used for real-time monitoring, parameter tuning, and mission planning.  
-It supports a wide range of vehicles — including **rovers**, **robotic arms**, **rockets**, and **drones** — and integrates seamlessly with the **PilotX** platform.
+**PlannerX**, developed by *Safear Defense Private Limited – Bengaluru*, is a comprehensive **Ground Control Station (GCS)** software used for **real-time monitoring, parameter tuning, and mission planning**.  
+It supports a wide range of vehicle types — including **rovers, robotic arms, rockets, and drones** — and integrates seamlessly with the **PilotX** platform.
 
 ### 🚀 Features
 - Real-time telemetry monitoring  
 - PID tuning and parameter configuration  
 - Mission and path planning tools  
-- Graphical dashboards for system visualization  
-- Multiple vehicle profiles (Rover, Drone, Robot Arm, Rocket)  
+- Graphical dashboards for visualization  
+- Multi-vehicle support (Rover, Drone, Robotic Arm, Rocket)  
 - **100% Offline Operation — Free Lifetime Access**
 
 ### 📥 Download & Access
@@ -52,7 +54,7 @@ It supports a wide range of vehicles — including **rovers**, **robotic arms**,
 - **Developer:** Safear Defense Pvt. Ltd. – Bengaluru  
 - **Platform:** Windows  
 - **License:** Free (Lifetime Access)  
-- **Documentation:** [Read Manual](#) 
+- **Documentation:** [Read Manual](#)
 
 ---
 
@@ -62,84 +64,97 @@ It supports a wide range of vehicles — including **rovers**, **robotic arms**,
 - Design a **quadruped robot** that performs realistic, smooth movements.  
 - Implement **pose-based servo control** using MicroPython.  
 - Demonstrate interactive actions such as **handshake**, **walking**, and **sleeping**.  
-- Integrate motion logic, sensors, and control software.
+- Integrate motion logic, sensors, and software for smart behavior.
 
 ---
 
 ### ⚙️ System Logic Overview
 
 The robot dog is driven by **eight servo motors**, each controlling a leg joint.  
-The project uses **MicroPython** to coordinate servo movement through **smooth interpolation** and **pose sequencing**.
+The system uses **MicroPython** to coordinate servo movement through **smooth interpolation** and **pose sequencing**.
 
-#### 🧩 Key Components:
+#### 🧩 Key Components
 1. **Servo Initialization:**  
-   Sets all 8 servos to a neutral (standing) position.
+   Sets all servos to a neutral (standing) position.
 
-2. **Smooth Motion Function:**  
-   A custom routine (`move_servos_smooth()`) incrementally adjusts servo angles to reach target positions.  
-   This ensures **smooth and lifelike movements** instead of abrupt transitions.
+2. **Smooth Motion Function (`move_servos_smooth()`):**  
+   Moves servos gradually to their target angles for lifelike motion.
 
 3. **Defined Poses:**
-   - 🐕 **Stand Pose:** Default upright position  
-   - 🪑 **Sit Pose:** Lowers hind legs to simulate sitting  
-   - 💤 **Sleep Pose:** Full rest mode  
-   - ⚙️ **Work Pose:** Active operational stance  
+   - 🐕 **Stand Pose:** Upright neutral stance  
+   - 🪑 **Sit Pose:** Rear legs lowered  
+   - 💤 **Sleep Pose:** Fully relaxed position  
+   - ⚙️ **Work Pose:** Active mode  
 
 4. **Action Sequences:**
-   - **Handshake Motion:** The robot raises and lowers its front leg repeatedly.  
-   - **Pose Transitions:** Moves sequentially through stand → sit → sleep → work positions.  
-   - **Walking Sequence:** Alternates leg positions for a natural walking cycle (20 seconds).  
+   - 🤝 **Handshake Motion:** Raises and lowers front leg repeatedly.  
+   - 🔁 **Pose Transitions:** Moves through stand → sit → sleep → work positions.  
+   - 🚶 **Walking Sequence:** Alternates leg movements to simulate walking (20 seconds).  
 
 5. **Timing Control:**  
-   Uses `utime` and `sleep()` for accurate delay management and motion pacing.
+   Uses `utime` and `sleep()` for precise motion pacing.
 
 ---
 
 ### 🧠 Learning Outcomes
-By completing this project, you will learn to:
-- Control multiple servos in synchronization using MicroPython  
-- Develop **pose-based motion sequences**  
-- Implement **smooth servo interpolation** for natural movement  
-- Design simple robotic behaviors and routines  
+By completing this workshop project, participants learned how to:
+- Control multiple servos using **MicroPython**  
+- Create **pose-based robotic movement sequences**  
+- Implement **smooth servo interpolation** for realistic motion  
+- Design simple robotic behaviors with embedded logic  
 
 ---
 
 ### 🛠️ Hardware Setup
 | Component | Description |
 |------------|-------------|
-| Microcontroller | PilotX (Safear Defense Pvt. Ltd.) |
-| Servo Motors | 8 × 180° Standard Servos |
-| Power Supply | 5V DC (2A or above recommended) |
-| Communication | 2.4GHz Telemetry (PlannerX) |
-| Optional | GPS, Compass, Ultrasonic, IMU |
+| **Microcontroller** | PilotX (Safear Defense Pvt. Ltd.) |
+| **Servo Motors** | 8 × 180° Standard Servos |
+| **Power Supply** | 5V DC (2A or above) |
+| **Communication** | 2.4GHz Telemetry via PlannerX |
+| **Optional Modules** | GPS, Compass, Ultrasonic, IMU |
 
 ---
 
 ### 🧩 Software Setup
 - **Programming Language:** MicroPython  
-- **IDE / Tool:** PlannerX or any MicroPython IDE  
+- **IDE / Tool:** PlannerX or compatible MicroPython IDE  
 - **Upload Method:** USB / Telemetry Interface  
-- **Execution:** Continuous motion loop sequence  
+- **Execution:** Continuous motion control sequence  
 
 ---
 
 ### 🧱 Future Enhancements
 - Integration of **IMU sensors** for dynamic balance  
-- **Voice or gesture-based control** features  
-- **Autonomous path navigation** using ultrasonic & GPS modules  
+- **Voice or gesture control** support  
+- **Autonomous walking** with GPS and ultrasonic sensors  
 - Real-time **pose visualization** in PlannerX  
 
 ---
 
-### 🏢 About Safear Defense Pvt. Ltd.
-**Safear Defense Private Limited**, based in **Bengaluru, India**, is a technology-driven company specializing in **robotics, autonomous systems, and defense-grade embedded solutions**.  
-Their innovations such as **PilotX** and **PlannerX** enable developers, researchers, and students to explore cutting-edge embedded intelligence and robotics technologies.
+## 🏫 Workshop Context — BMS College of Engineering
+
+This project was part of a **3-Day Hands-On Robotics & Embedded Systems Workshop** conducted at **BMS College of Engineering**, in collaboration with **Safear Defense Private Limited – Bengaluru**.  
+Participants learned about:
+- Embedded control with the **PilotX microcontroller**  
+- Programming in **MicroPython**  
+- Robotic motion design and servo interfacing  
+- Real-time control using **PlannerX GCS**
+
+The workshop concluded with a live demonstration of the **Robotics-Dog** performing handshake, walking, and pose sequences.
 
 ---
 
-### 📄 License
+## 🏢 About Safear Defense Pvt. Ltd.
+
+**Safear Defense Private Limited**, based in **Bengaluru, India**, specializes in **robotics, autonomous systems, and defense-grade embedded technologies**.  
+Their innovations — **PilotX** (microcontroller platform) and **PlannerX** (GCS software) — enable students, engineers, and researchers to build intelligent, real-time robotic systems.
+
+---
+
+## 📄 License
 This project is open for **educational and non-commercial use** under standard open-source guidelines.  
-Please credit *Safear Defense Pvt. Ltd.* when using or modifying this work.
+Please credit *Safear Defense Pvt. Ltd.* when using or adapting this work.
 
 ---
 
