@@ -157,6 +157,3 @@ This project is open for **educational and non-commercial use** under standard o
 Please credit *Safear Defense Pvt. Ltd.* when using or adapting this work.
 
 ---
-
-**© 2025 Safear Defense Private Limited – Bengaluru**  
-*Innovating Intelligence in Robotics and Embedded Systems*
