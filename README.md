@@ -52,7 +52,7 @@ It supports a wide range of vehicles — including **rovers**, **robotic arms**,
 - **Developer:** Safear Defense Pvt. Ltd. – Bengaluru  
 - **Platform:** Windows  
 - **License:** Free (Lifetime Access)  
-- **Documentation:** [Read Manual](#) *(Insert your manual or PDF link here)*  
+- **Documentation:** [Read Manual](#) 
 
 ---
 
